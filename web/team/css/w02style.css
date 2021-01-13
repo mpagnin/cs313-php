@@ -13,24 +13,54 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2, p {
+    margin: 0.5rem 0;
+}
 #two {
+    font-size: 1.5rem;
     background-color: #b8860b;
     color: #052a2a;
 }
 
 #three {
+    font-size: 2rem;
     background-color: #ffffe0;
     color: #8b0000;
 }
 .mybox {
-    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid blue;
 }
 .mybox:hover {
     font-weight: bolder;
 }
+#buttonbox {
+    margin: 10px 15px;
+    padding: 10px;
+}
+#buttonbox button {
+    padding: 5px 10px;
+    background-color: #b8860b;
+    color: #8b0000;
+}
+#buttonbox button:hover {
+    background-color: #8b0000;
+    color: #b8860b;
+}
 @media only screen and (min-width: 768px) {
+    #page {
+        max-width: 60rem;
+        margin: 2rem auto;
+        border: 2px solid #4c96d7;
+    }
     .mybox {
-        max-width: 600px;
+        max-width: 700px;
     }
     
 }

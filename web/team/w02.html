@@ -14,16 +14,15 @@
                 <p>CSE341-02 Team Activity</p>
                 <p>Marco Pagnin</p>
             </header>
-            <nav>
-                
-            </nav>
             <main>
                 <h1>W02 Team Activity</h1>
                 <div id="one" class="mybox">
                     <h2>Box 1</h2>
                     <p>When hovering over this box, text temporarily become bold.</p>
-                    
-
+                    <p>You can also change this box background color.</p>
+                    <p>Enter the color you want and click on the button.</p>
+                    <input type="text" id="colorInputBox">
+                    <button onclick="changeColor()">Change color</button>
 
                 </div>
                 <div id="two" class="mybox">
@@ -36,13 +35,11 @@
                 </div>
                 <div id="buttonbox">
                     <button onclick="alerttext()">Click Me</button>
+                    <!-- <button id="btnChangeText" onclick="changetext('Clicked!')">Click Me</button> -->
                 </div>
                     
             </main>
-            <footer>
-
-            </footer>
         </div>
-        <script src="/scripts/buttonscrpt.js"></script>
+        <script src="scripts/myfunctions.js"></script>
     </body>
 </html>
