@@ -1,0 +1,36 @@
+/*  Style sheet for W02 Team Activity
+    CSE341-02 Winter 2021
+    Student Marco Pagnin
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+#two {
+    background-color: #b8860b;
+    color: #052a2a;
+}
+
+#three {
+    background-color: #ffffe0;
+    color: #8b0000;
+}
+.mybox {
+    max-width: 400px;
+}
+.mybox:hover {
+    font-weight: bolder;
+}
+@media only screen and (min-width: 768px) {
+    .mybox {
+        max-width: 600px;
+    }
+    
+}
