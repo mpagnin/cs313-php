@@ -6,5 +6,5 @@ function changetext(newText) {
 }
 function changeColor() {
     var clientColor = document.getElementById('colorInputBox').value;
-    document.getElementById("one").style.background = clientColor;
+    document.getElementById("one").style.backgroundColor = clientColor;
 }
