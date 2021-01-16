@@ -11,17 +11,17 @@
     <body>
         <div id="page">
             <header class="clearfix" id="headercont">
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/web/assignment/common/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '..web/assignment/common/header.php'; ?>
             </header>
             <nav>
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/web/assignment/common/nav.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '../assignment/common/nav.php'; ?>
             </nav>
             <main class="clearfix">
                 <div id="arti">
                     <h1>Welcome to CSE341-02 Marco Pagnin assignments website</h1>
                     <section class="callto">
                         <div id="myimg">
-                            <img src="../images/marcopagnin.jpg" alt="Marco Pagnin picture">
+                            <img src="../assignment/images/marcopagnin.jpg" alt="Marco Pagnin picture">
                         </div>
                         <div id="calltotext">
                             <h2>Something about me</h2>
