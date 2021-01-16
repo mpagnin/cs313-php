@@ -10,10 +10,10 @@ if ($action == NULL) {
 
 switch ($action) {
     case 'assignments':
-        include 'view/assignments.php';
+        include 'views/assignments.php';
     break;
     default:
-        include 'view/home.php';
+        include 'views/home.php';
     break;
 }
 
