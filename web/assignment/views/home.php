@@ -10,42 +10,38 @@
     </head>
     <body>
         <div id="page">
-            <header class="clearfix" id="headercont">
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '..web/assignment/common/header.php'; ?>
+            <header>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignment/common/header.php'; ?>
             </header>
             <nav>
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '../assignment/common/nav.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignment/common/nav.php'; ?>
             </nav>
-            <main class="clearfix">
+            <main>
                 <div id="arti">
-                    <h1>Welcome to CSE341-02 Marco Pagnin assignments website</h1>
-                    <section class="callto">
+                <h1>Marco Pagnin</h1>
+                    <section id="mypres">
                         <div id="myimg">
                             <img src="../assignment/images/marcopagnin.jpg" alt="Marco Pagnin picture">
                         </div>
-                        <div id="calltotext">
+                        <div id="myprestext">
                             <h2>Something about me</h2>
-                            <p id="calltofeatures">I am 58 years old. I live in Italy, not far from Venezia and Verona. 
-                            They are really beautiful cities, but also Padova is avesome. Probably I tell you about it.</p>
-                            <p>Since I was young, my interests split between nature and technology. I firmly believe that 
-                            they can coexist in harmony. The real challenge of our time is to be able to understand that 
-                            the existence of one does not prevent that of the other.</p>
-                            <p>I've had a lot of different jobs. One of them was the IT manager and software developer in 
-                            a very dynamic company. Then my choices led me to work in different roles (warehouse manager, 
-                            sales manager, quality manager, production manager). Now, with this wealth of experience, 
-                            I better understand the importance of a good use of software and of a good software to use.</p>
-                        </div>
-                        
+                            <p>I am 58 years old. I live in Italy, not far from Venice and Verona. 
+                                They are really beautiful cities, but Padova also is awesome. I may tell you more 
+                                about it in the future.</p>
+                            <p>Since I was young, my interests have been split between nature and technology. 
+                                I firmly believe that they can co-exist in harmony. The real challenge of our time 
+                                is to be able to understand that the existence of one does not prevent that of the other.</p>
+                            <p>I've had a lot of different jobs. One of them was the IT manager and software developer 
+                                in a very dynamic company. Then my choices led me to work in different roles (warehouse manager, 
+                                sales manager, quality manager, production manager). Now, with this wealth of experience, I better 
+                                understand the importance of a good use of software and of a good software to use.</p>
                         </div>
                     </section>
-                
                 </div>
-            
-            
             </main>
-        
+            <footer>
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/assignment/common/footer.php'; ?>
+            </footer>
         </div>
-    
     </body>
-
 </html>

@@ -1,0 +1,153 @@
+/*  Style sheet for Marco Pagnin Assignments website
+    CSE341-02 Winter 2021
+    Student Marco Pagnin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #e1e1e1;
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body p {
+    margin: 0.5rem 0;
+}
+#page {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ff7f27;
+    border-radius: 0.3rem;
+}
+header, nav, main, footer {
+    width: 100%;
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+h1 {
+    margin: 0.7rem 0 0.5rem 0;
+}
+h2, h3 {
+    margin: 0;
+}
+header {
+    background-color: #ff7f27;
+}
+#headercont {
+    margin-left: 1rem;
+    display: inline-flex;
+    direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+#mplogo {
+    text-decoration: none;
+    margin: 0.4rem 0 0.3rem 0;
+    padding-right: 1rem;
+}
+#mplogo img {
+    max-width: 100%;
+    min-width: 80px;
+}
+#mplogotext {
+    text-decoration: none;
+    margin-top: 0.9rem;
+    color: #2f2f2f;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+nav {
+    background-color: #2f2f2f;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 0.5rem;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    padding: 0.4rem 0.3rem;
+    margin: 0 0.3rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff7f27;
+    text-align: center;
+    text-transform: capitalize;
+ }
+nav ul li a:hover, nav ul li a:active {
+    color: #e1e1e1;
+}
+#arti {
+    padding: 0 1rem;
+}
+#mypres {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+#myimg {
+    text-align: center;
+}
+
+#myimg img {
+    max-width: 100%;
+}
+#myprestext ul {
+    list-style-type: none;
+    padding: 0;
+}
+#myprestext a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+footer {
+    background-color: #2f2f2f;
+    text-align: center;
+    padding: 0.6rem 0.1rem;
+}
+footer p {
+    color: #e1e1e1;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+    #page {
+        flex: 1;
+        max-width: 1024px;
+        margin: 2rem auto;
+    }
+    #mypres {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-between;
+    }
+    #myprestext {
+        width: 60%;
+    }
+    #myimg {
+        width: 40%;
+    }
+}
