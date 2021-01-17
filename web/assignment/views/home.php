@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Marco Pagnin">
         <meta name="description" content="CSE341-02 Marco Pagnin assignments home page">
+        <link rel="icon" href="images/icologo.png">
     </head>
     <body>
         <div id="page">

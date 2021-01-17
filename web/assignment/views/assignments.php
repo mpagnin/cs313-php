@@ -2,11 +2,12 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Marco Pagnin home page | CSE341-02 Winter 2021</title>
+        <title>Marco Pagnin assignments | CSE341-02 Winter 2021</title>
         <link rel="stylesheet" type="text/css" href="/assignment/css/style.css" media="screen">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Marco Pagnin">
-        <meta name="description" content="CSE341-02 Marco Pagnin assignments home page">
+        <meta name="description" content="CSE341-02 Marco Pagnin assignments page">
+        <link rel="icon" href="images/icologo.png">
     </head>
     <body>
         <div id="page">

@@ -16,6 +16,4 @@ switch ($action) {
         include 'views/home.php';
     break;
 }
-
-
 ?>
